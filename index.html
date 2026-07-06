@@ -1,31 +1,99 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title> (update this for full credit)Website Template</title>
-	<link rel="stylesheet" href="assets/css/styles.css">
-	<!--Midterm Exam (10 points) -- Each of the following steps is worth one point as you build an online resume:
-  1. Add a title tag to name the page with your name, ie. Ken Starzer Resume
-  2. Add a first-level heading to the page with your name
-  3. Add a paragraph tag beneath the first heading and write two sentences about yourself. 
-  4. Add a second-level heading to the page to create the Education section
-  5. Add a bulleted or numbered list in that section with the names of schools you have attended after high school. Then repeat steps 4 and 5 for other sections, such as Employment, Skills (to list software skills, etc.), Awards or Clubs (if those apply), or anything else you want to add.
-  6. Add links to the page where appropriate (you need to have at least one link). If you want to make a link to email you, the href should point to "mailto:youremailaddress@utdallas.edu"
-  7. Choose two Google Web Fonts and link to them in your page--one for your display text (title of your page or headings) and one for body copy
-  8. Create styles to change the font-face (use the Google Web Font) and color of your headings, and create other typographic treatments
-  9. Add the necessary links from getbootstrap.com to use the Bootstrap framework and add the following wrapper to your page starting just beneath the body tag (and closing just before the close body tag):
-        <div class="container">
-          Add resume content here
-        </div>
-  10. Stage and commit your changes; then make sure your repo is hosting live Github pages. You will submit your live .io page and the link to your repo.
-  11. Bonus point: Add an image of yourself or of one of your artworks to the page
-  12. Second bonus point: Create your resume as a two-column grid, centered in the page (for people really diving into Bootstrap already)
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alyssa Wagnitz Resume</title>
 
-    When you are finished, submit the two links (link to your github.io live page and link to your Github repo) on eLearning
-    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+  <div class="container resume-shell">
+    <header class="resume-header">
+      <p class="eyebrow">Student and web designer</p>
+      <h1>Alyssa Wagnitz</h1>
+      <p class="intro">I am a student at The University of Texas at Dallas exploring web design, digital storytelling, and thoughtful online experiences. I enjoy turning ideas into clear, colorful websites that invite people to explore.</p>
+      <nav class="contact-links" aria-label="Contact links">
+        <a href="https://github.com/abw22">GitHub profile</a>
+        <a href="https://abw22.github.io/hyperlink-narrative/">Featured project</a>
+      </nav>
+    </header>
 
-	
+    <main class="row g-4 g-lg-5 align-items-start">
+      <aside class="col-lg-4">
+        <figure class="artwork">
+          <img
+            class="img-fluid"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Crect width='600' height='600' fill='%23f0d6cd'/%3E%3Ccircle cx='300' cy='300' r='205' fill='%23fffaf5' stroke='%231d4944' stroke-width='18'/%3E%3Cpath d='M300 95 C260 210 270 350 420 475 M95 300 C220 255 350 250 505 300 M160 160 C245 245 340 230 440 160' fill='none' stroke='%23c8573f' stroke-width='22' stroke-linecap='round'/%3E%3C/svg%3E"
+            alt="Original abstract digital artwork inspired by a volleyball">
+          <figcaption>Volleyball Geometry, digital artwork</figcaption>
+        </figure>
+
+        <section>
+          <h2>Education</h2>
+          <ul>
+            <li><strong>The University of Texas at Dallas</strong><br>Internet Studio coursework</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Skills</h2>
+          <ul class="skill-list">
+            <li>HTML5 and semantic structure</li>
+            <li>CSS3 and responsive design</li>
+            <li>Bootstrap framework</li>
+            <li>GitHub and GitHub Pages</li>
+            <li>Visual Studio Code</li>
+          </ul>
+        </section>
+      </aside>
+
+      <div class="col-lg-8">
+        <section>
+          <h2>Projects</h2>
+          <article class="project">
+            <p class="project-type">Interactive hypertext narrative</p>
+            <h3>Tournament Morning</h3>
+            <p>A nonlinear story following volleyball coach Mara as she prepares her team for a tournament. Multiple linked pages let readers choose their own path through the pressure, planning, and excitement of match day.</p>
+            <p class="project-links">
+              <a href="https://abw22.github.io/hyperlink-narrative/">View the live project</a>
+              <a href="https://github.com/abw22/hyperlink-narrative">View the repository</a>
+            </p>
+          </article>
+        </section>
+
+        <section>
+          <h2>Design Strengths</h2>
+          <ul>
+            <li>Organizing information into readable page structures</li>
+            <li>Using color and typography to create a distinct mood</li>
+            <li>Building clear navigation between multiple web pages</li>
+            <li>Testing and publishing websites for real audiences</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Interests</h2>
+          <ul>
+            <li>Volleyball and coaching stories</li>
+            <li>Interactive storytelling</li>
+            <li>Accessible and inviting web design</li>
+            <li>Creative digital projects</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>Resume created by Alyssa Wagnitz for Internet Studio.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
