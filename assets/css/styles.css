@@ -141,6 +141,10 @@ li + li {
   margin-bottom: 0;
 }
 
+.experience-item + .experience-item {
+  margin-top: 18px;
+}
+
 .project-links a {
   display: inline-block;
 }
