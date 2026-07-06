@@ -16,13 +16,13 @@ body {
 
 header {
   padding-bottom: 24px;
-  border-bottom: 2px solid #6d3b78;
+  border-bottom: 2px solid #1f4e79;
   margin-bottom: 30px;
 }
 
 h1,
 h2 {
-  color: #6d3b78;
+  color: #1f4e79;
   font-family: "Lora", Georgia, serif;
   font-weight: 600;
 }
@@ -34,7 +34,7 @@ h1 {
 
 h2 {
   padding-bottom: 4px;
-  border-bottom: 1px solid #6d3b78;
+  border-bottom: 1px solid #1f4e79;
   margin-bottom: 12px;
   font-size: 25px;
 }
@@ -55,14 +55,14 @@ a,
 a:hover,
 a:focus,
 a:visited {
-  color: #6d3b78;
+  color: #1f4e79;
   font-weight: 600;
   text-underline-offset: 3px;
 }
 
 .resume-image {
   width: 100%;
-  max-width: 280px;
+  max-width: 220px;
   border: 1px solid #000000;
 }
 
