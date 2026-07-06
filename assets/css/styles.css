@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: #f7f2f8;
-  color: #333333;
+  background-color: #ffffff;
+  color: #000000;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.6;
@@ -16,13 +16,13 @@ body {
 
 header {
   padding-bottom: 24px;
-  border-bottom: 2px solid #bd5274;
+  border-bottom: 1px solid #000000;
   margin-bottom: 30px;
 }
 
 h1,
 h2 {
-  color: #4d2858;
+  color: #000000;
   font-family: "Lora", Georgia, serif;
 }
 
@@ -48,15 +48,18 @@ li {
   margin-bottom: 7px;
 }
 
-a {
-  color: #9a3658;
+a,
+a:hover,
+a:focus,
+a:visited {
+  color: #000000;
   font-weight: 600;
 }
 
 .resume-image {
   width: 100%;
   max-width: 280px;
-  border: 2px solid #4d2858;
+  border: 1px solid #000000;
 }
 
 @media (max-width: 600px) {
