@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: #ffffff;
-  color: #000000;
+  color: #a94f6f;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.6;
@@ -16,13 +16,13 @@ body {
 
 header {
   padding-bottom: 24px;
-  border-bottom: 2px solid #1f4e79;
+  border-bottom: 2px solid #d88ea7;
   margin-bottom: 30px;
 }
 
 h1,
 h2 {
-  color: #1f4e79;
+  color: #c26384;
   font-family: "Lora", Georgia, serif;
   font-weight: 600;
 }
@@ -34,7 +34,7 @@ h1 {
 
 h2 {
   padding-bottom: 4px;
-  border-bottom: 1px solid #1f4e79;
+  border-bottom: 1px solid #d88ea7;
   margin-bottom: 12px;
   font-size: 25px;
 }
@@ -55,7 +55,7 @@ a,
 a:hover,
 a:focus,
 a:visited {
-  color: #1f4e79;
+  color: #a94f6f;
   font-weight: 600;
   text-underline-offset: 3px;
 }
@@ -63,7 +63,7 @@ a:visited {
 .resume-image {
   width: 100%;
   max-width: 220px;
-  border: 1px solid #000000;
+  border: 1px solid #d88ea7;
 }
 
 @media (max-width: 600px) {
